@@ -1,5 +1,5 @@
 import React from 'react';
-import SignupLogin from './SignupLogin'; // Import the SignupLogin component
+import SignupLogin from '../signuplogin/SignupLogin'; // Import the SignupLogin component
 import './loginmodal.css'
 
 function LoginModal({ isOpen, onClose }) {

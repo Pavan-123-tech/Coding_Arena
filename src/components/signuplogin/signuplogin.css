@@ -6,16 +6,24 @@
     border: 1px solid #ccc;
     background-image: linear-gradient(to right,#f5ac82,#a11afe);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
   }
   
-  .signup-login h2 {
+  .signup-login>h2 {
     font-size: 24px;
     margin-bottom: 20px;
     text-align: center;
+    padding: 0px;
+    background-image: none;
+    margin-left: 0px;
+    padding: 0%;
+    width: auto;
+    height: auto;
   }
   
   .form-group {
     margin-bottom: 20px;
+    
   }
   
   .form-group label {
@@ -30,6 +38,7 @@
     font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    color: black;
   }
   
   .form-group button {
@@ -75,4 +84,8 @@
     border-radius: 10px;
     margin-left: 8px;
     background-color: #f5ac82;
+  }
+  .loginheading{
+    background-color: inherit;
+    font-size: inherit;
   }

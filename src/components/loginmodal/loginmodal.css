@@ -24,6 +24,12 @@
     position: relative;
     text-align: center;
   }
+  .modal-content>h2{
+    width: auto;
+    height: auto;
+    margin: auto;
+   padding: 8px;
+  }
   
   .close-button {
     position: absolute;
@@ -37,4 +43,8 @@
   .close-button:hover {
     color: #f00;
   }
+.modal-content{
+  width: 500px;
+  height: 640px;
   
+}  

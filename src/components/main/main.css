@@ -5,6 +5,7 @@
     justify-content: space-between;
     padding: 50px;
     background-image: linear-gradient(to right,#f5ac82,#a11afe);
+    margin-bottom: 30px;
   }
   
   .hero-content {
@@ -16,6 +17,7 @@
    font-size: 40px;
     margin-bottom: 30px;
     color: white;
+    font-weight: 600;
   }
   
   .hero-description {

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './login.css'
+import './signuplogin.css'
 
 function SignupLogin() {
   const [showSignup, setShowSignup] = useState(true); // Use state to toggle between signup and login forms
@@ -10,7 +10,7 @@ function SignupLogin() {
 
   return (
     <div className="signup-login">
-      <h2>{showSignup ? 'Sign Up' : 'Log In'}</h2>
+      <h2 className='loginheading' >{showSignup ? 'Sign Up' : 'Log In'}</h2>
       <form>
         {/* Form fields for Sign Up or Log In */}
         {/* Example: */}
