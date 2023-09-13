@@ -5,19 +5,20 @@ import Main from './components/main/Main';
 import SignupLogin from './components/signuplogin/SignupLogin';
 import CourseList from './components/courselist/CourseList';
 import Profile from './components/profile/Profile';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes,useLocation } from 'react-router-dom';
 import CourseContent from './components/coursecontent/CourseContent';
 import Cart from './components/cart/Cart';
 
 
 function App() {
-  
+  const location = useLocation();
+  const isMain = location.pathname === '/';
 
   return (
   
     <BrowserRouter>
     <Header/>
-     <Main/>
+    {!isMain && <Main />}
       <Routes>
         
         < Route path="/" element={<Main/>} />
